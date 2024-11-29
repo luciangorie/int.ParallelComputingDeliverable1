@@ -3,7 +3,8 @@ here is the repository for int.PARCO D1
 
 You can find:
 
-
+- directory for tests results and analysis attached to the document
+- official document IEEE submitted via e-mail
 
 
 
