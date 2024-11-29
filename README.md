@@ -2,9 +2,14 @@
 here is the repository for int.PARCO H1/D1
 
 You can find:
-- some example of implementations of main
-- directory for tests results and analysis attached to the document at https://drive.google.com/drive/folders/1XiznFH5u935mtcfHnHqpiyWMsDdW9wru?usp=drive_link
-- official document IEEE submitted via e-mail
+- some example of implementations of main (proj.cpp -> works for serial and implicitly parallelized solution, selects the option by reading if a -true is passed by the command line or not; OmpProj1 and OmpProj1_TEST both shows results calling the functions parallelized with OpenMp, but the one ending with test does it for more times in a row.
+- directory for personal tests results and analysis attached to the document at https://drive.google.com/drive/folders/1XiznFH5u935mtcfHnHqpiyWMsDdW9wru?usp=drive_link
+- official document IEEE also submitted via e-mail
+-PBS files, that can be used in order to execute codes on the HPC cluster of UniTN in the same manner I did:
+
+//pbs decription
+
+//ATTENTION
 
 The main can also be created autonomously by the user that can customize an execution for different needs.
 be aware that:
