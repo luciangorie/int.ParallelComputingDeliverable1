@@ -1,0 +1,42 @@
+Matrix allocated successfully 1000 x 1000
+Matrix allocated successfully 1000 x 1000
+Matrix allocated successfully 1000 x 1000
+Matrix allocated successfully 1000 x 1000
+Matrix allocated successfully 1000 x 1000
+Matrix allocated successfully 1000 x 1000
+Matrix allocated successfully 1000 x 1000
+Matrix allocated successfully 1000 x 1000
+Matrix allocated successfully 1000 x 1000
+Matrix allocated successfully 1000 x 1000
+Matrix allocated successfully 1000 x 1000
+Time check (symmetry function): 1498
+Effective parallelization with OMP time: 1649
+Check of process correctly completed n. 1
+=============================================
+Effective parallelization with OMP time: 1051
+Check of process correctly completed n. 2
+=============================================
+Effective parallelization with OMP time: 1870
+Check of process correctly completed n. 3
+=============================================
+Effective parallelization with OMP time: 969
+Check of process correctly completed n. 4
+=============================================
+Effective parallelization with OMP time: 1002
+Check of process correctly completed n. 5
+=============================================
+Effective parallelization with OMP time: 1007
+Check of process correctly completed n. 6
+=============================================
+Effective parallelization with OMP time: 935
+Check of process correctly completed n. 7
+=============================================
+Effective parallelization with OMP time: 2534
+Check of process correctly completed n. 8
+=============================================
+Effective parallelization with OMP time: 2207
+Check of process correctly completed n. 9
+=============================================
+Effective parallelization with OMP time: 1001
+Check of process correctly completed n. 10
+=============================================
