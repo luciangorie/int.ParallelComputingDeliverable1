@@ -6,8 +6,11 @@ You can find:
 - directory for personal tests results and analysis attached to the document at https://drive.google.com/drive/folders/1XiznFH5u935mtcfHnHqpiyWMsDdW9wru?usp=drive_link
 - official document IEEE also submitted via e-mail
 -PBS files, that can be used in order to execute codes on the HPC cluster of UniTN in the same manner I did:
-
-//pbs decription
+testp1.pbs is for executing proj1.cpp (serial part)
+testpImp.pbs is for executing proj.cpp (implicitly parallelized part)
+testp3.pbs is for executing OmpProj1.cpp  more times with different numbers of threads
+testp8.pbs
+testpOmp.pbs
 
 //ATTENTION
 
