@@ -1,18 +1,10 @@
 # int.ParallelComputingDeliverable1
-here is the repository for int.PARCO D1
+here is the repository for int.PARCO H1/D1
 
 You can find:
-
-- directory for tests results and analysis attached to the document
+- some example of implementations of main
+- directory for tests results and analysis attached to the document at https://drive.google.com/drive/folders/1XiznFH5u935mtcfHnHqpiyWMsDdW9wru?usp=drive_link
 - official document IEEE submitted via e-mail
-
-
-
-
-
-
-
-
 
 The main can also be created autonomously by the user that can customize an execution for different needs.
 be aware that:
@@ -22,3 +14,5 @@ be aware that:
 . Timers are effective but do not perform well on very small amounts of time
 -include all libraries reported
 -take in consideration to follow the general idea that checkSym() should be used to avid matrix transposition, as a symmetric matrix is equal to its transposal. The reccomended order is: create new Timer(), allocate and create matrix/ matrices, start timer, check symmetry, stop timer, print timer, if symmetric end program, if not symmetric start timer again compute the tramspose, stop timer and check result, if check is correctly complete store the transpose in a new matrix.
+
+Alessandro Luzzani
