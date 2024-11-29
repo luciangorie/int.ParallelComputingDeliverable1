@@ -16,6 +16,7 @@ testp8.pbs and testpOmp.pbs do the same thing, executing parallel solutions with
 pbs files can be launched with qsub *name*.pbs and job status can be checked with qstat *name_account*
 
 }
+
 -header files (Do not change anything, excluded the size N)
 
 The main can also be created autonomously by the user that can customize an execution for different needs.
