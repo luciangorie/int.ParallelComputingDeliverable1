@@ -1,0 +1,38 @@
+#!/bin/bash
+# Job name
+#PBS -N Del1alessandro.luzzani
+# Output files
+#PBS -o ./output.o
+#PBS -e ./errorc.e
+# Queue name
+#PBS -q short_cpuQ
+# Set the maximum wall time
+#PBS -l walltime=0:02:00
+# Number of nodes, cpus, and amount of memory
+#PBS -l select=1:ncpus=64:ompthreads=64:mem=8000mb
+
+# Load the GCC 9.1 module (or another version you prefer)
+module load gcc91
+
+# Custom GCC alias
+g++()
+{
+  g++-9.1.0 "$@"
+}
+
+# Go to the working directory (replace with your directory)
+cd /home/alessandro.luzzani/ProvaParallelProgramming/Delieverable1
+
+# Compile the C++ file
+g++ -o programma_eseguibile OmpProj1.cpp -fopenmp
+
+# Set thread counts to test
+thread_counts=(2 4 6 8 16 32 64)
+
+# Execute the program with different thread counts
+for threads in "${thread_counts[@]}"; do
+  echo "Running with OMP_NUM_THREADS=$threads"
+  export OMP_NUM_THREADS=$threads
+  ./programma_eseguibile
+done
+
